@@ -1,0 +1,68 @@
+.youtube {
+    background-color: rgb(204, 0, 0);
+    color: white;
+    border: none;
+    padding-right: 16px;
+    padding-left: 16px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 2px;
+    cursor: pointer;
+    margin-right: 12px;
+    transition: opacity 0.15s;
+    vertical-align: top;
+}
+
+.youtube:hover {
+    opacity: 0.8;
+}
+
+.youtube:active {
+    opacity: 0.5;
+}
+
+.onlyfans {
+    background-color: white;
+    border-color: rgb(6, 95, 212);
+    border-style: solid;
+    border-width: 1px;
+    color: rgb(6, 95, 212);
+    padding-top: 9px;
+    padding-bottom: 9px;
+    padding-right: 15px;
+    padding-left: 15px;
+    border-radius: 2px;
+    cursor: pointer;
+    margin-right: 12px;
+    transition: background-color 0.15s, color 0.15s;
+    vertical-align: top;
+}
+
+.onlyfans:hover {
+    background-color: rgb(1, 104, 223);
+    color: white;
+}
+
+.onlyfans:active {
+    opacity: 0.6;
+}
+
+.X {
+    background-color: rgb(29, 155, 240);
+    color: white;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    padding-right: 16px;
+    padding-left: 16px;
+    border: none;
+    border-radius: 18px;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+    transition: box-shadow 0.15s;
+    vertical-align: top;
+}
+
+.X:hover {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+}

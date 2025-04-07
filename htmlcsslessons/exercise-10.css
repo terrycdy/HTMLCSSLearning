@@ -1,0 +1,73 @@
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.card-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 30px;
+    column-gap: 20px;
+    row-gap: 40px;
+}
+
+.card {
+    box-shadow: 0 0 5px black;
+}
+
+.profile-picture {
+    display: block;
+    width: 100%;
+}
+
+.friend-profile-picture {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    object-position: left;
+    border-radius: 30px;
+    vertical-align: middle;
+    margin-left: 8px;
+}
+
+.friend-profile-picture-container, .friend-text-container {
+    display: inline-block;
+}
+
+.friend-text {
+    color: rgb(96, 96, 96);
+    margin-left: 8px;
+    font-size: 20px;
+    vertical-align: middle;
+    margin-bottom: 30px;
+}
+
+.username {
+    font-weight: bold;
+    margin-top: 8px;
+    margin-bottom: 12px;
+    font-size: 20px;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+.friend-button-container {
+    display: block;
+}
+
+.friend-button {
+    width: 140px;
+    height: 40px;
+    background-color: rgb(77, 77, 255);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    margin-left: 8px;
+    margin-bottom: 20px;
+}
+
+.friend-button:hover {
+    opacity: 0.8;
+}
