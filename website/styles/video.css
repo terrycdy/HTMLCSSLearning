@@ -6,9 +6,15 @@
     display: inline-block;
 }
 
+.video-link,
+.video-author-link {
+    color: inherit;
+    text-decoration: none;
+}
+
 .profile-picture {
-    width: 80%;
-    border-radius: 30px;
+    width: 70%;
+    border-radius: 50%;
 }
 
 .video-title {
@@ -16,11 +22,11 @@
     font-size: 14px;
     font-weight: bold;
     line-height: 20px;
-    margin-bottom: 12px;
+    margin-bottom: 10px;
 }
 
 .thumbnail-row {
-    margin-bottom: 12px;
+    margin-bottom: 8px;
     position: relative;
 }
 
@@ -40,9 +46,27 @@
 
 .video-grid {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
     column-gap: 16px;
     row-gap: 40px;
+}
+
+/* media query for responsive design. */
+@media (max-width: 750px) {
+    .video-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (min-width: 751px) and (max-width: 999px) {
+    .video-grid {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media (min-width: 1000px) {
+    .video-grid {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
 }
 
 .video-time {
